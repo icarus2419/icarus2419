@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Hi%20there,%20I'm%20Joseph%20%F0%9F%91%8B&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20/%20Full-Stack%20Developer%20/%20CS%20Student&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Hi%20there,%20I'm%20Joseph%20%F0%9F%91%8B&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20/%20Full-Stack%20Developer%20/%20CS%20Graduate&descAlignY=55&descSize=16" width="100%"/>
 
 <a href="mailto:contact@Josephsamadi.uk">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Building+things+for+the+web+%F0%9F%8C%90;CS+Student+%40+University+of+Liverpool;Freelance+Front-End+%2F+Full-Stack+Dev;3D+%2F+WebGL+tinkerer;Always+shipping+something+new" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Building+things+for+the+web+%F0%9F%8C%90;BSc+Computer+Science+%40+University+of+Liverpool;Freelance+Front-End+%2F+Full-Stack+Dev;3D+%2F+WebGL+tinkerer;Always+shipping+something+new" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -18,7 +18,7 @@
 
 ### 👋 About Me
 
-- 🎓 Final-year **Computer Science BSc** student at the **University of Liverpool** (graduating 2026)
+- 🎓 **BSc Computer Science** graduate from the **University of Liverpool**
 - 💻 Previously a Software Engineer at Heaven Estate Agent — frontend updates, SEO improvements, and modernising a legacy booking system
 - 🚀 Currently freelancing, building responsive **React / JavaScript** websites for small businesses
 - 🃏 Side project: a multiplayer **poker platform** with AI opponents, real-time gameplay, and replayable seeded hands
