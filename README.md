@@ -67,7 +67,7 @@ A modular multiplayer poker platform featuring No-Limit Texas Hold'em, AI oppone
 **[Tabkeep](https://github.com/icarus2419/Tabkeep)**  
 A minimal reading-list web app for tracking books with notes, ratings, and read status.
 
-**[NoSite-Lead-Helper]([https://nositeleads.uk/])**  
+**[NoSite-Lead-Helper](https://nositeleads.uk)**  
 A local-only Chrome extension for finding Google Maps businesses with no website and exporting them as outreach leads.
 
 **Secure-document-approval** *(private repo)*  
