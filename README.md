@@ -77,7 +77,6 @@ const joseph = {
 <div align="center">
 
 <img height="170" src="./profile/stats.svg" alt="GitHub Stats" />
-<img height="170" src="./profile/top-langs.svg" alt="Top Languages" />
 
 <br/><br/>
 
