@@ -1,0 +1,56 @@
+name: Update stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # runs daily at 3am UTC
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=icarus2419&show_icons=true&hide_border=true&bg_color=1e1d23&title_color=a78bfa&icon_color=f6c453&text_color=f7f0dd&ring_color=a78bfa
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=icarus2419&layout=compact&langs_count=8&hide_border=true&bg_color=1e1d23&title_color=a78bfa&text_color=f7f0dd
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        run: |
+          mkdir -p profile
+          URL="https://streak-stats.demolab.com?user=icarus2419&hide_border=true&background=1e1d23&ring=a78bfa&fire=f6c453&currStreakNum=f7f0dd&currStreakLabel=a78bfa&sideNums=f7f0dd&sideLabels=a78bfa&dates=8886a0"
+          for i in 1 2 3 4 5; do
+            if curl -fsSL "$URL" -o /tmp/streak.svg && grep -q "<svg" /tmp/streak.svg && ! grep -qi "something went wrong" /tmp/streak.svg; then
+              mv /tmp/streak.svg profile/streak.svg
+              echo "Streak card updated."
+              break
+            fi
+            echo "Streak fetch attempt $i failed, retrying in 30s..."
+            sleep 30
+          done
+          # If all attempts fail, the previously committed streak.svg is kept,
+          # so the profile never shows a broken image.
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update stats cards" || exit 0
+          git push
