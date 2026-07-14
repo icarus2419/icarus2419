@@ -9,7 +9,7 @@
 <br/><br/>
 
 <a href="https://josephsamadi.uk"><img src="https://img.shields.io/badge/Portfolio-josephsamadi.uk-a78bfa?style=for-the-badge&logo=googlechrome&logoColor=1e1d23&labelColor=1e1d23" /></a>
-<a href="https://josephsamadi.uk/3d"><img src="https://img.shields.io/badge/3D_Portfolio-Explore-f6c453?style=for-the-badge&logo=threedotjs&logoColor=1e1d23&labelColor=1e1d23" /></a>
+<a href="https://josephsamadi.uk/3D"><img src="https://img.shields.io/badge/3D_Portfolio-Explore-f6c453?style=for-the-badge&logo=threedotjs&logoColor=1e1d23&labelColor=1e1d23" /></a>
 <a href="mailto:contact@josephsamadi.uk"><img src="https://img.shields.io/badge/Email-contact%40josephsamadi.uk-a78bfa?style=for-the-badge&logo=gmail&logoColor=1e1d23&labelColor=1e1d23" /></a>
 
 <img src="https://komarev.com/ghpvc/?username=icarus2419&color=764ba2&style=flat-square&label=Profile+Views" />
@@ -34,7 +34,7 @@ const joseph = {
 - Previously a **Software Engineer at Heaven Estate Agent** - frontend updates, SEO improvements, and modernising a legacy booking system
 - Currently **freelancing**, building responsive **React / JavaScript** websites for small businesses
 - Built a multiplayer **poker platform** with AI opponents, real-time gameplay, and replayable seeded hands
-- Built a **3D interactive eportfolio** with Three.js + WebGL - live at **[josephsamadi.uk/3d](https://josephsamadi.uk/3d)**
+- Built a **3D interactive eportfolio** with Three.js + WebGL - live at **[josephsamadi.uk/3D](https://josephsamadi.uk/3D)**
 - Deepening my skills in **backend development, system design, and full-stack architecture**
 - Reach me at **[contact@josephsamadi.uk](mailto:contact@josephsamadi.uk)**
 
@@ -64,7 +64,7 @@ const joseph = {
 
 | Project | What it is | Built with |
 |---|---|---|
-| **[E-port](https://github.com/icarus2419/E-port)** ([Live](https://josephsamadi.uk)) | My eportfolio, including a full **3D / WebGL version** at [josephsamadi.uk/3d](https://josephsamadi.uk/3d) | `Three.js` `WebGL` `JavaScript` |
+| **[E-port](https://github.com/icarus2419/E-port)** ([Live](https://josephsamadi.uk)) | My eportfolio, including a full **3D / WebGL version** at [josephsamadi.uk/3D](https://josephsamadi.uk/3D) | `Three.js` `WebGL` `JavaScript` |
 | **[Poker-Platform](https://github.com/icarus2419/Poker-Platform)** | Modular multiplayer **No-Limit Texas Hold'em** with AI opponents, real-time gameplay, replayable seeded hands, difficulty settings, chip and betting controls | `Python` `Game Logic` `AI` |
 | **[Tabkeep](https://github.com/icarus2419/Tabkeep)** | Minimal reading-list web app for tracking books with notes, ratings, and read status | `JavaScript` `Web App` |
 | **[NoSite-Lead-Helper](https://nositeleads.uk)** | Local-only Chrome extension that finds Google Maps businesses **with no website** and exports them as outreach leads | `Chrome Extension` `JavaScript` |
@@ -109,7 +109,7 @@ const joseph = {
 
 <br/>
 
-*Thanks for stopping by - the 3D version of my portfolio is live at [josephsamadi.uk/3d](https://josephsamadi.uk/3d)*
+*Thanks for stopping by - the 3D version of my portfolio is live at [josephsamadi.uk/3D](https://josephsamadi.uk/3D)*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:a78bfa,55:764ba2,100:1e1d23&height=130&section=footer" width="100%"/>
 
