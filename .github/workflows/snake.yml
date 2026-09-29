@@ -1,12 +1,8 @@
-# Save this file as .github/workflows/snake.yml in your profile repo
-# (the repo that's named exactly the same as your GitHub username).
-# It regenerates the animated snake once a day and on every push.
-
 name: generate-snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs once a day
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
   push:
     branches:
@@ -16,12 +12,15 @@ jobs:
   generate:
     permissions:
       contents: write
+
     runs-on: ubuntu-latest
+
     steps:
       - uses: Platane/snk@v3
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.SNAKE_PAT || github.token }}
           outputs: dist/github-contribution-grid-snake.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
